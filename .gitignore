@@ -1,1 +1,6 @@
 financial_pricing_lab/.venv/
+financial_pricing_lab/__pycache__/
+financial_pricing_lab/data/__pycache__/
+financial_pricing_lab/models/__pycache__/
+financial_pricing_lab/products/__pycache__/
+financial_pricing_lab/core/__pycache__/
