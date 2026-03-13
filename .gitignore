@@ -4,3 +4,11 @@ financial_pricing_lab/data/__pycache__/
 financial_pricing_lab/models/__pycache__/
 financial_pricing_lab/products/__pycache__/
 financial_pricing_lab/core/__pycache__/
+
+options_pricing_lab/.venv/
+options_pricing_lab/__pycache__/
+options_pricing_lab/data/__pycache__/
+options_pricing_lab/exotics/__pycache__/
+options_pricing_lab/risk/__pycache__/
+options_pricing_lab/visualization/__pycache__/
+options_pricing_lab/volatility/__pycache__/
