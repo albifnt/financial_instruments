@@ -36,8 +36,8 @@ def scenario_reprice(
 def scenario_grid(
     spot: float, strike: float, maturity: float, rate: float, vol: float, option_type: str = "call"
 ) -> pd.DataFrame:
-    spot_shifts = [-20, -10, -5, 0, 5, 10, 20]
-    vol_shifts = [-30, -15, 0, 15, 30]
+    spot_shifts = [-5, 10, -5, 0, 5, 10, 20]
+    vol_shifts = [30, -15, 0, 15, 30]
     rows = []
     base = bs_price(spot, strike, maturity, rate, vol, option_type)
     for ds in spot_shifts:
